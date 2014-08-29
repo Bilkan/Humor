@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" 
+  android:background="@drawable/background">
+  <RelativeLayout 
+  	android:layout_width="fill_parent" 
+  	android:id="@+id/listtitlebar" 
+  	android:paddingTop="3dp" 
+  	android:paddingBottom="3dp" 
+  	android:layout_height="50dp">
+   <TextView 
+   	android:id="@+id/txtTitle_favorite" 
+   	android:layout_alignParentTop="true" 
+   	android:layout_toRightOf="@+id/favoriteBtn" 
+   	android:layout_alignParentRight="true" 
+   	android:layout_height="fill_parent" 
+   	android:gravity="center_vertical|center_horizontal" 
+   	android:layout_width="fill_parent" 
+   	android:text="@string/favorite_title"
+   	android:textSize="23dp"/>
+  </RelativeLayout>
+   <RelativeLayout 
+   	android:layout_width="fill_parent" 
+   	android:id="@+id/relativeLayout2" 
+   	android:layout_alignParentBottom="true" 
+   	android:layout_alignParentLeft="true" 
+   	android:paddingLeft="10dp" 
+   	android:paddingRight="10dp" android:paddingBottom="10dp" android:paddingTop="10dp" android:layout_height="64dp">
+       <ImageButton 
+       	android:text="@string/favorite_clear" 
+       	android:id="@+id/button1" 
+       	android:layout_centerVertical="true" 
+       	android:layout_alignParentRight="true" 
+       	android:fadingEdge="horizontal|vertical" 
+       	android:gravity="center_vertical|center_horizontal" 
+       	android:paddingLeft="10dp" 
+       	android:paddingRight="10dp" 
+       	android:paddingBottom="3dp" 
+       	android:background="@drawable/btnstyle6" android:layout_height="fill_parent" android:layout_width="54dp" android:layout_marginRight="20dp"/>
+       <ImageButton 
+       	android:layout_alignParentTop="true" 
+       	android:layout_alignParentLeft="true" 
+       	android:background="@drawable/btnstyle5" 
+       	android:id="@+id/returnBtn" 
+       	android:layout_height="match_parent" android:layout_width="50dp" android:layout_marginLeft="10dp"/>
+ </RelativeLayout>
+   <ListView 
+   	android:id="@+id/listView1" 
+   	android:layout_width="match_parent" 
+   	android:layout_below="@+id/listtitlebar" 
+   	android:layout_centerHorizontal="true" 
+   	android:layout_above="@+id/relativeLayout2" 
+   	android:layout_height="fill_parent" 
+   	android:paddingLeft="5dp" 
+   	android:paddingRight="5dp" 
+   	android:layout_marginLeft="2dp" 
+   	android:layout_marginRight="2dp" />
+</RelativeLayout>

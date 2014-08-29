@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" 
+  android:background="@drawable/background">
+  <RelativeLayout 
+		android:layout_width="fill_parent" 
+		android:layout_height="90dp" 
+		android:id="@+id/updatetitlebar" 
+		android:paddingTop="3dp" 
+		android:paddingBottom="3dp">
+ 		<TextView 
+ 			android:layout_width="fill_parent" 
+ 			android:id="@+id/txtTitle" 
+ 			android:text="@string/update_title" 
+ 			android:textSize="23dp"
+ 			android:layout_alignParentTop="true" 
+ 			android:layout_toRightOf="@+id/favorateBtn" 
+ 			android:layout_alignParentRight="true" 
+ 			android:layout_height="fill_parent" 
+ 			android:gravity="center_vertical|center_horizontal" 
+ 			android:textStyle="bold"/>
+	</RelativeLayout>
+	
+	
+	<RelativeLayout
+		android:layout_height="fill_parent" 
+ 		android:layout_width="fill_parent"
+ 		android:layout_below="@+id/updatetitlebar"
+ 		android:layout_above="@+id/updateBtnLayout" >
+		<TextView 
+    		android:textAppearance="?android:attr/textAppearanceMedium" 
+    		android:text="TextView" 
+    		android:layout_above="@+id/webCount"
+    		android:gravity="center"
+    		android:layout_marginBottom="50dp"
+    		android:layout_height="wrap_content"
+    		android:layout_width="fill_parent" 
+    		android:id="@+id/localCount"/>
+		<TextView 
+    		android:textAppearance="?android:attr/textAppearanceMedium" 
+    		android:layout_width="fill_parent" 
+    		android:text="TextView" 
+    		android:layout_centerInParent="true"
+    		android:gravity="center"
+    		android:id="@+id/webCount" 
+    		android:layout_height="wrap_content"/>
+	</RelativeLayout>
+	<RelativeLayout
+		android:id="@+id/updateBtnLayout"
+		android:layout_width="fill_parent"
+		android:layout_alignParentBottom="true" android:layout_height="90dp">
+		<ImageButton 
+    		android:background="@drawable/btnstyle5" 
+    		android:layout_width="wrap_content" 
+    		android:layout_alignParentLeft="true" 
+    		android:layout_marginLeft="29dp" 
+    		android:id="@+id/returnBtn2" android:layout_height="wrap_content" android:layout_centerVertical="true"/>
+    	<ImageButton 
+    		android:id="@+id/update" android:background="@drawable/btnstyle7" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginRight="70dp" android:layout_height="64dp" android:layout_width="64dp"/>
+	</RelativeLayout>
+ 
+</RelativeLayout>

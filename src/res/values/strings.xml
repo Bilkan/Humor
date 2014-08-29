@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">يۇمۇر</string>
+    <string name="favorite_title">ياقتۇرغان يۇمۇرلار تىزىملىكى</string>
+    <string name="favorite_clear">تىزىملىكنى تازىلا</string>
+    <string name="favorite_return">قايتىش</string>
+    
+    <color name="toolBrBKColor">#DEE3F3</color>
+    <color name="viewTextBKColor">#E7E7E8</color>
+    <color name="titleBKColor">#E7E7E8</color>
+    <color name="titleColor">#000000</color>
+    <color name="viewContextColor">#000000</color>
+    
+    <string name="closeBtn">تاقاش</string>
+	<string name="version">نەشرى: 1.0.6</string>
+	<string name="copywrite">بىلكان شىركىتى يۇمشاق دېتال ئىجادىيەت بۆلۈمى</string>
+	<string name="webid">http://www.bilkan.net</string>
+	<string name="add_humor">يۇمۇر قوشماقچى بولسىڭىز تۆۋەندىكى ئادرېسقا كىرىڭ.</string>
+	<string name="add_web">http://localhost</string> // <!-- add your server address here;-->
+	<string name="remarks">توغرىسىدا</string> 
+	<string name="favorite">ياقتۇرغان</string>
+	<string name="updates">يېڭىلاش</string>
+	<string name="new_item_count">توردىن يېڭىلاشقا بولىدىغان يېڭى يۇمۇر سانى</string>
+	<string name="not_connected">تور ئۇلانمىغان، توردىن يېڭى يۇمۇر قوشالمايدۇ!</string>
+	<string name="update_title">توردىن يېڭىلاش</string>
+	<string name="db_item_count">ئامباردىكى يۇمۇر سانى</string>
+	<string name="close">تاقا</string>
+	<string name="context_menu_delete">چىقىرىۋەت</string>
+	<string name="zero_update">توردىن چۈشۈرىدىغان يېڭى يۇمۇر يوق.</string>
+	<string name="updated">توردىن يېڭى يۇمۇرلارنى چۈشۈرۈپ بولدى.</string>
+	<string name="no_connection">ئۈسكۈنە تورغا ئۇلانمىغان، يېڭى يۇمۇرلارنى چۈشۈرەلمىدى.</string>
+</resources>

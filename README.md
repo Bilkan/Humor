@@ -1,12 +1,18 @@
 Humor
-=====
+======
 
-A humor reader in Uyghur language. New humors can be dowanloaded form the server. This app needs Internet access only when humor database is updated.
+A humor reader in Uyghur language. The server side program is based on Microsoft .NET. Humors are saved on the server, this app pulls humors from your url of choice as a JSON file.
 
-يۇمۇر ئوقۇشقا ئىشلىتىلىدۇ. يۇمۇرلار داۋاملىق قوشۇلۇپ تۇرىدۇ. يۇمۇرلانى توردىن يىڭىلاشقا بولىدۇ. يۇمۇرنى يىڭىلايدىغان ۋاقىتتىلا تورغا ئىھتىياجلىق بولىدۇ. باشقا ۋاقىتتا توردىن يىڭىلىۋالغان يۇمۇرلارنى خالىغانچە ئوقۇشقا، بەلگە سېلىپ قۇيۇشقا بولىدۇ.
+Screenshots
+---------
+![screenshot](screenshots/001.png)
+
+![screenshot](screenshots/002.png)
+
+How To Use
+---------
+Change the server address to your url of choice in values/strings.xml
 
 Download Link:
-
-Google Play: https://play.google.com/store/apps/details?id=net.uyghurdev.humor.re
-
-Bilkan Bazar: http://bazar.bilkan.net/App.aspx?id=174
+----------
+[Download from Bilkan Bazar](http://bazar.bilkan.net/App.aspx?id=174)

@@ -16,3 +16,6 @@ Change the server address to your url of choice in values/strings.xml
 Download Link:
 ----------
 [Download from Bilkan Bazar](http://bazar.bilkan.net/App.aspx?id=174)
+
+Similar Projects
+* [Letipe](https://github.com/Bilkan/Letipe)
